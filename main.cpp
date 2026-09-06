@@ -16,7 +16,7 @@ int main()
 	//print out all the values for each object to validate your code
 	cout << obj1.getValue() << endl;
 	cout << obj2.getValue() << endl;
-	cout << "^^This is my output!"
+	cout << "^^This is my output!" << endl;
 
 	return 0;
 }
