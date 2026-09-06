@@ -6,16 +6,16 @@ using namespace std;
 int main()
 {
 	//create a few starter objects
-	Starter obj1;
-	Starter obj2;
+	Starter_Object s1;
+	Starter_Object s2;
 	
 	//add some values to test out your values methods
-	obj1.setValue(10);
-	obj2.setValue(25);
+	s1.val1(10);
+	s2.val1(25);
 	
 	//print out all the values for each object to validate your code
-	cout << obj1.getValue() << endl;
-	cout << obj2.getValue() << endl;
+	cout << s1.val1() << endl;
+	cout << s2.val1() << endl;
 	cout << "^^This is my output!" << endl;
 
 	return 0;
