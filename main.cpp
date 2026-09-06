@@ -7,7 +7,7 @@ int main()
 {
 	//create a few starter objects
 	Starter obj1;
-	Starter obj2l
+	Starter obj2;
 	
 	//add some values to test out your values methods
 	obj1.setValue(10);
